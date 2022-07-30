@@ -22,7 +22,7 @@ firebase=pyrebase.initialize_app(config)
 storage= firebase.storage()
 
 cloud=input(str("Enter firebase Path"))
-local=input(str("Enter path of the file*))
+local=input(str("Enter path of the file"))
 path_on_cloud=(cloud) 
 path_local=local
 storage.child(path_on_cloud).put(path_local)
