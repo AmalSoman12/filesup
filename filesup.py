@@ -21,6 +21,8 @@ firebase=pyrebase.initialize_app(config)
 
 storage= firebase.storage()
 
-path_on_cloud=("videos/vidtest1.mp4") 
-path_local="vidtest.mp4"
+cloud=input(str("Enter firebase Path"))
+local=input(str("Enter path of the file*))
+path_on_cloud=(cloud) 
+path_local=local
 storage.child(path_on_cloud).put(path_local)
