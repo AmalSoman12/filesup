@@ -2,4 +2,4 @@
 ```diff
 
 - You can Upload files to firebase
-- Change the name of the file in this to your file name
+- Enter the path of the file as on your device
