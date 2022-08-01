@@ -1,0 +1,14 @@
+Programas para realizar a compilação:
+sudo apt install gcc g++ make adb usbmuxd linux-headers-`uname -r`
+
+Dependências:
+sudo apt install libavutil-dev libswscale-dev libasound2-dev libspeex-dev libusbmuxd-dev libplist-dev gtk+-3.0 libappindicator3-dev libjpeg-turbo-official libxapp-dev
+
+Compilação e instalação:
+make
+
+sudo ./install-client
+
+sudo ./install-video
+
+sudo ./install-dkms
